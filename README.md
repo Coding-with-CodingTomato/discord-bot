@@ -1,9 +1,9 @@
 # twitch-discord-bot
 
 ## Todos
-- [ ] Init Node Project
-- [ ] Add DiscordJS
-- [ ] Add Bot to Server
-
-- [ ] Automatische Rollenzuweisung
-- [ ] Top of today programming meme automatisch posten
+- [x] Init Node Project
+- [x] Add DiscordJS
+- [x] Add Bot to Server
+- [x] Ping Command
+- [x] Top of today programming meme automatisch posten
+- [x] Automatische Rollenzuweisung
