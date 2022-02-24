@@ -7,3 +7,5 @@
 - [x] Ping Command
 - [x] Top of today programming meme automatisch posten
 - [x] Automatische Rollenzuweisung
+
+- [ ] schreiben wenn ich live bin
