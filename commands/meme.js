@@ -15,7 +15,7 @@ module.exports = {
     .setDescription('Schickt einen randmon Codememe in den Chat'),
   async execute(interaction) {
     try {
-      const response = await axios.get(`${redditBaseURL}/ProgrammerHumor/top/.json`);
+      const response = await axios.get(`${redditBaseURL}/ProgrammerHumor/top/.json?limit=100&t=day`);
       const { children } = response.data.data;
       const choosenChild = getRandomChildFromArray(children);
       if (choosenChild.data.post_hint !== 'image') {
